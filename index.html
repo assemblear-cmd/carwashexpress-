@@ -42,7 +42,8 @@
     box-shadow:0 4px 10px rgba(209,75,80,.25);
   }
   .brand-name{font-family:'Oswald',sans-serif;font-weight:700;color:var(--ink);font-size:20px;line-height:1;letter-spacing:1.2px;text-transform:uppercase}
-  .brand-name .accent{font-family:'Barlow Condensed',sans-serif;font-style:italic;font-weight:700;color:#C0392B;text-transform:uppercase;letter-spacing:3px;font-size:20px;margin-left:4px;vertical-align:1px;}
+  .accent-circle{display:inline-flex;align-items:center;justify-content:center;width:38px;height:38px;border-radius:50%;background:var(--red);margin-left:8px;vertical-align:middle;border:2px solid var(--red-dark);flex-shrink:0;}
+.brand-name .accent{font-family:'Barlow Condensed',sans-serif;font-style:italic;font-weight:700;color:#fff;text-transform:uppercase;letter-spacing:2px;font-size:9px;margin:0;vertical-align:0;line-height:1;}
   .nav-links{display:flex;gap:32px;align-items:center}
   .nav-links a{font-weight:500;font-size:14px;color:var(--ink)}
   .nav-links a:hover{color:var(--red)}
@@ -234,7 +235,7 @@
   <div class="nav-inner">
     <a href="#" class="brand">
       <div class="brand-mark">CX</div>
-      <div class="brand-name">CARWASH<span class="accent">express</span></div>
+      <div class="brand-name">CARWASH<span class="accent-circle"><span class="accent">EXP</span></span></div>
     </a>
     <div class="nav-links" id="navlinks">
       <a href="#services">Services</a>
@@ -409,7 +410,7 @@
       <div class="foot-brand">
         <a href="#" class="brand">
           <div class="brand-mark" style="background:#fff;color:var(--red)">CX</div>
-          <div class="brand-name" style="color:#fff">CARWASH<span class="accent" style="color:#fff;opacity:.85">express</span></div>
+          <div class="brand-name" style="color:#fff">CARWASH<span class="accent-circle" style="background:rgba(255,255,255,.15);border-color:rgba(255,255,255,.3)"><span class="accent">EXP</span></span></div>
         </a>
         <p>Premium express car wash since 2009. Simple, fast, and reliably bold.</p>
       </div>
