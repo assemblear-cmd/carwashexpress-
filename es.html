@@ -29,7 +29,7 @@ nav.top{position:fixed;top:0;left:0;right:0;z-index:50;background:rgba(255,255,2
 .brand-name{font-family:'Oswald',sans-serif;font-weight:700;color:var(--ink);font-size:22px;line-height:1;letter-spacing:1.5px;text-transform:uppercase}
 
 .brand-name 
-.nav-links{display:flex;gap:24px;align-items:center}
+.nav-links{display:flex;gap:32px;align-items:center}
 .nav-links a{font-weight:500;font-size:14px;color:var(--ink)}
 .nav-links a:hover{color:var(--red)}
 .lang-switch{display:flex;align-items:center;gap:6px;font-size:13px;font-weight:600;color:var(--ink);padding:6px 12px;border-radius:999px;border:1.5px solid rgba(0,0,0,.12);transition:border-color .2s ease;cursor:pointer;text-decoration:none;}
@@ -124,7 +124,7 @@ footer{background:var(--ink);color:#fff;padding:60px 0 24px}
 .plans{grid-template-columns:1fr;gap:16px}
 .loc-grid{grid-template-columns:1fr 1fr}
 .foot-grid{grid-template-columns:1fr 1fr;gap:30px}
-.nav-links{display:none}
+
 .nav-toggle{display:block}
 .nav-links.open{display:flex;position:absolute;top:100%;left:0;right:0;background:#fff;flex-direction:column;padding:20px;gap:18px;border-bottom:1px solid rgba(0,0,0,.08)}
 }
@@ -134,21 +134,21 @@ footer{background:var(--ink);color:#fff;padding:60px 0 24px}
 <body>
 
 <nav class="top">
-<div class="nav-inner">
-<a href="index.html" class="brand">
-<div class="brand-name">CARWASH</div>
-<div class="brand-mark">express</div>
-</a>
-<div class="nav-links" id="navlinks">
-<a href="#servicios">Servicios</a>
-<a href="#membresia">Membresía</a>
-<a href="#sucursales">Sucursales</a>
-<a href="#contacto">Contacto</a>
-<a href="#membresia" class="btn btn-red" style="padding:10px 20px">Únete</a>
-<a href="index.html" class="lang-switch"><span class="flag">🇺🇸</span> EN</a>
-</div>
-<button class="nav-toggle" id="navtoggle" aria-label="menu"><span></span><span></span><span></span></button>
-</div>
+  <div class="nav-inner">
+    <a href="index.html" class="brand">
+      <div class="brand-name">CARWASH</div>
+      <div class="brand-mark">express</div>
+    </a>
+    <div class="nav-links" id="navlinks">
+      <a href="#servicios">Servicios</a>
+      <a href="#membresia">Membresía</a>
+      <a href="#sucursales">Sucursales</a>
+      <a href="#contacto">Contacto</a>
+      <a href="#membresia" class="btn btn-red" style="padding:10px 20px">Únete</a>
+      <a href="index.html" class="lang-switch"><span class="flag">🇺🇸</span> EN</a>
+    </div>
+    <button class="nav-toggle" id="navtoggle" aria-label="menu"><span></span><span></span><span></span></button>
+  </div>
 </nav>
 
 <header class="hero">
@@ -350,7 +350,7 @@ nav.top{position:fixed;top:0;left:0;right:0;z-index:50;background:rgba(255,255,2
 .brand-name{font-family:'Oswald',sans-serif;font-weight:700;color:var(--ink);font-size:22px;line-height:1;letter-spacing:1.5px;text-transform:uppercase}
 
 .brand-name 
-.nav-links{display:flex;gap:32px;align-items:center}
+
 .nav-links a{font-weight:500;font-size:14px;color:var(--ink)}
 .nav-links a:hover{color:var(--red)}
 .lang-switch{display:flex;align-items:center;gap:6px;font-size:13px;font-weight:600;color:var(--ink);padding:6px 12px;border-radius:999px;border:1.5px solid rgba(0,0,0,.12);transition:border-color .2s ease;cursor:pointer;text-decoration:none;}
@@ -445,7 +445,7 @@ footer{background:var(--ink);color:#fff;padding:60px 0 24px}
 .plans{grid-template-columns:1fr;gap:16px}
 .loc-grid{grid-template-columns:1fr 1fr}
 .foot-grid{grid-template-columns:1fr 1fr;gap:30px}
-.nav-links{display:none}
+
 .nav-toggle{display:block}
 .nav-links.open{display:flex;position:absolute;top:100%;left:0;right:0;background:#fff;flex-direction:column;padding:20px;gap:18px;border-bottom:1px solid rgba(0,0,0,.08)}
 }
